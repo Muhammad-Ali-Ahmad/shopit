@@ -1,0 +1,67 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: wheat;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav {
+    padding: 2em 0.5em;
+    background-color: red;
+    width: 10%;
+    display: inline-block;
+}
+
+nav li {
+    margin: 1em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section {
+    width: 79%;
+    padding: 2em 1em;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside {
+    background-color: violet;
+    padding: 2em 1em;
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: blue;
+}
+
+.product {
+    display: inline-block;
+}
+
+.product-image, .product-price {
+    width: 25%;
+}
+
+.product-description {
+    width: 49%;
+}
